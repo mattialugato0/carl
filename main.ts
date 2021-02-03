@@ -36,5 +36,5 @@ gg = sprites.create(img`
     . . . . f f f f f f f f f . . . 
     `, SpriteKind.Player)
 gg.setPosition(0, 122)
-controller.moveSprite(gg, 100, 0)
+controller.moveSprite(gg, 100000000, 10000000)
 gg.setStayInScreen(true)
